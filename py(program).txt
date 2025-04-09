@@ -1,0 +1,165 @@
+Arthemetic operators without using input
+
+
+a=10
+>>> b=2
+>>> print(a+b)
+12
+>>> print(a-b)
+8
+>>> print(a*b)
+20
+>>> print(a/b)
+5.0
+>>> print(a%b)
+0
+>>> print(a//b)
+5
+>>> print(a**b)
+100
+
+
+Arthemetic operators using input
+
+a=int(input("enter first number:"))
+enter first number:6
+>>> b=int(input("enter second number:"))
+enter second number:3
+>>> print(a+b)
+9
+>>> print(a-b)
+3
+>>> print(a*b)
+18
+>>> print(a/b)
+2.0
+>>> print(a%b)
+0
+>>> print(a//b)
+2
+>>> print(a**b)
+216
+>>> a=eval(input("enter first nuber"))
+enter first nuber2.3
+>>> b=eval(input("enter second number"))
+enter second number3.3
+>>> print(a+b)
+5.6
+>>> print(a-b)
+-1.0
+>>> print(a*b)
+7.589999999999999
+>>> 
+
+COMPARISION OPERATOR
+
+ a=int(input("enter first number:"))
+enter first number:10
+>>> b=int(input("enter second number:"))
+enter second number:30
+>>> print(a>b)
+False
+>>> print(a<b)
+True
+>>> print(a>=b)
+False
+>>> print(a<=b)
+True
+>>> print(a==b)
+False
+
+EQUALITY OPERATOR
+
+10==10
+True
+>>> 10==10.0
+True
+>>> 10==10.3
+False
+>>> 1==True
+True
+>>> 0==False
+True
+
+AREA OF THE TRIANGLE
+
+a=int(input("enter first side of the triangle:"))
+
+b=int(input("enter second side of the triangle:"))
+
+c=int(input("enter third side of the triangle:"))
+
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+
+print("area of the traingle is",area)
+O/P:
+enter first side of the triangle:10
+
+enter second side of the triangle:20
+
+enter third side of the triangle:30
+
+area of the traingle is 0.0
+
+
+A=int(input("enter first number"))
+
+B=int(input("enter second number"))
+
+A=A-B
+
+B=A+B
+
+A=A+B
+
+print("after swapping of two numbers are:")
+
+print("-----------------------")
+
+print(" first value is :",A)
+
+print("second value is:",B)
+
+SPECIAL OPERATOR:
+
+IDENTITY OPERATOR
+a=10
+b=10
+
+print(a is b)
+
+print(a is not b)
+
+print(id(a))
+
+print(id(b))
+
+True
+
+False
+
+140295821166888
+
+140295821166888
+
+MEMBERSHIP OPERATOR
+
+l1=[3,4,5,6]
+
+l2=[3,4,5,6]
+
+print(l2 in l1)
+
+print(l1 in l2)
+
+print(5 in l2)
+
+print(3 not in l2)
+
+print(id(a))
+
+print(id(b))
+
+
+

@@ -1,0 +1,57 @@
+l=[10,20,30,'milky',(10+20j),'true',1]
+print(l)
+print(l[3])
+print(l[-2])
+print(l[1:4])
+print(l)
+l.remove(30)
+print(l)
+====================================
+min /max
+l=[10,20,30,40,50,100]
+print(len(l))
+print(l)
+print(max(l))
+print(min(l))
+=======================================
+       sum of list
+
+list=[8,2,3,0,7]
+sum=0
+for i in list:
+    sum=sum+i
+    print("the sum is:",sum)
+================================================
+                     split
+s=input("enter a string")
+print(s.split())
+=========================================================
+			removing
+list=[10,20,30,'true',0,(10+20j)]
+print(list)
+x=list.copy()
+print(x)
+list.pop(3)
+print(list)
+del list[2]
+print(list)
+list.reverse()
+print(list)
+list.clear()
+print(list)
+====================================================================
+odd numers
+
+n= int(input("enter a value"))
+list=[]
+for i in range(n):
+    num=int(input("enter a number:"))
+    list.append(num)
+    print("even numbers are:")
+    print("[",end="")
+    for num in list:
+        if num%2==0:
+            print(num,end=" ")
+            print("]")
+
+  ========================================================================     

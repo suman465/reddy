@@ -1,0 +1,333 @@
+ASSIGHNMENT OPERATOR
+
+a=10
+
+a+=20
+
+print(a)
+OUTPUT:30
+
+
+
+x,*y=10,20,30,40
+
+print(x,y)
+
+print(type(x))
+
+print(type(y))
+OUTPUT:10 [20, 30, 40]
+
+<class 'int'>
+
+<class 'list'>
+
+
+bitwise operator:
+.
+>>> (True&False)
+False
+>>> (True|False)
+True
+>>> (True^False)
+True
+>>> (True<<2)
+4
+>>> (2>>True)
+1
+
+logical operator:
+
+>>> 4 and 5
+5
+>>> 4 or 6
+4
+
+conditional operator:
+x=30 if 10<20 else 40
+
+print(x)
+o/p:30
+
+I/O FUNCTIONS:
+a=int(input("enter a number"))
+
+print(type(a))
+O/P:enter a number10
+<int>
+multiple values
+
+.
+
+a,b=(eval(x)for x in (input("enter a number")).split())
+
+print("product",a*b)
+o/p:enter a number10 20 30
+product 200
+
+output() functions:
+print("hello python")
+
+print("python is")
+
+print("very easy language")
+
+
+   o/p:hello python
+
+python is
+
+very easy language
+
+print("hello python",end=" ")
+
+print("python is",end=" ")
+print("very easy",end=" ")
+o/p:hello python python is very easy 30 40 50
+a,b,c=30,40,50
+
+print(a,b,c)
+o/p: 30 40 50
+
+formatted control:
+
+a,b,c=10,20.5,"python"
+
+print("a value is:%d"%a)
+
+print("b value is:%f"%b)
+
+print("c value is:%s"%c)
+o/p:a value is:10
+
+b value is:20.500000
+
+c value is:python
+
+
+operator precedence:
+a=30
+
+b=20
+
+c=10
+
+d=50
+
+print((a+b)*(c/d))
+
+print((a+b)*(c/d))
+
+print(a+(b*c)/d)
+o/p:10.0
+
+10.0
+
+34.0
+
+
+control statements:
+SIMPLE IF:
+>>> x=10
+>>> if x<=20:
+	print("good morning")
+	
+good morning
+
+IF ELSE:
+num=int(input("enter any number:"))
+
+if num%2==0:
+ 
+   print("the given num is even")
+
+else:
+       
+ print("the given num is odd")
+
+o/p:enter any number:30
+
+the given num is even
+
+num=int(input("enter any year:"))
+
+if num%4==0:
+   
+  print("the given year is leaf")
+
+else:
+    
+ print("the year is not leaf")
+o/p:enter any year:2004
+
+the given year is leaf
+
+
+
+num=int(input("enter any number"))
+
+if num>=1 and num<=100:
+    
+  print("the given num is within range")
+
+else:
+   
+ print("the given num is not within range")
+
+o/p:enter any number30
+
+the given num is within range
+    
+
+n1=int(input("enter first number"))
+
+n2=int(input("enter second num"))
+
+if n1>=n2:
+    
+   print("the num is big")
+
+else:
+   
+  print("the num is not big")
+   
+o/p:enter first number10
+
+enter second num60
+
+the num is not big
+
+
+IF ELIF ELSE:
+n1=int(input("enter first number:"))
+
+n2=int(input("enter second number:"))
+
+n3=int(input("enter third number:"))
+
+if n1>n2 and n1>n3:
+    
+ print("the given number is bigger")
+
+elif n2>n3:
+   
+ print("the given number is smaller")
+
+else:
+   
+ print("the given number is not recommended")
+O/P:enter first number:30
+
+enter second number:20
+
+enter third number:10
+the given number is bigger
+
+
+    
+num=int(input("enter any num(1-5):")) 
+
+if num==1:
+   
+  print("one")
+
+elif num==2:
+   
+  print("two")
+elif num==3:
+    
+ print("three")
+
+elif num==4:
+    
+ print("four")
+
+elif num==5:
+    
+ print("five")
+
+else:
+   
+ print("the num is out of range") 
+O/P:enter any num(1-5):3
+
+three 
+
+num=int(input("enter the numbers"))
+
+for x in range(1,11):
+   
+ print(num,"*",x,"=",num*x)
+ 
+o/p:enter the numbers30
+
+30 * 1 = 30
+
+30 * 2 = 60
+
+30 * 3 = 90
+
+30 * 4 = 120
+
+30 * 5 = 150
+
+30 * 6 = 180
+
+30 * 7 = 210
+
+30 * 8 = 240
+
+30 * 9 = 270
+
+30 * 10 = 300 
+ 
+ 
+input_string=input("enter a string:")
+
+for i in range(len(input_string)):
+   
+ print(f"character at index{i}:{input_string[i]}")
+
+o/p:enter a string:indukr
+
+character at index0:i
+
+character at index1:n
+
+character at index2:d
+
+character at index3:u
+
+character at index4:k
+
+character at index5:r
+
+LOOPING STATEMENTS:
+n=int(input("enter a number:"))
+
+dup=n
+
+sum=0
+
+while n>0:
+    
+   rem=n%10
+    
+  sum=(sum*10)
+   
+   n=n//10
+
+if dup==sum:
+        
+   print("the given num is palindrome")
+
+else:
+     
+  print("the given is not palindrome")
+O/P:enter a number:30
+
+the given is not palindrome
+
+
+
+       
